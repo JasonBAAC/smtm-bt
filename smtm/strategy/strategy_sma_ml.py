@@ -48,16 +48,16 @@ class StrategySmaMl(Strategy):
 
     ISO_DATEFORMAT = "%Y-%m-%dT%H:%M:%S"
     COMMISSION_RATIO = 0.0005
-    SHORT = 10
-    MID = 30
-    LONG = 100
+    SHORT = 3
+    MID = 6
+    LONG = 9
     STEP = 1
     NAME = "SML-R7-1126"
     CODE = "SML"
     M_LR_COUNT = 40
     L_LR_COUNT = 40
     LR_FIT_SCORE = 0.7
-    WAITING_STABLE = 40
+    WAITING_STABLE = 5
     TREND_WIDTH = 60
     MIN_MARGIN = 0.002
     SPOIL_LIMIT = 2

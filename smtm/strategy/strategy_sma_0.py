@@ -27,9 +27,9 @@ class StrategySma0(Strategy):
 
     ISO_DATEFORMAT = "%Y-%m-%dT%H:%M:%S"
     COMMISSION_RATIO = 0.0005
-    SHORT = 10
-    MID = 40
-    LONG = 60
+    SHORT = 3
+    MID = 6
+    LONG = 9
     STEP = 1
     NAME = "SMA0-I"
     CODE = "SMA"
